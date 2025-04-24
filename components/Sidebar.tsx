@@ -9,7 +9,7 @@ export default function Sidebar() {
 
   const links = [
     { href: '/dashboard', label: 'Dashboard', icon: <Home size={20} /> },
-    { href: '/user', label: 'Users', icon: <Users size={20} /> },
+    { href: '/user', label: 'Leads', icon: <Users size={20} /> },
     { href: '/packages', label: 'Packages', icon: <Package size={20} /> },
   ];
 

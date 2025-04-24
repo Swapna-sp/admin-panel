@@ -90,7 +90,7 @@ export default function PackageFormPage() {
         <Topbar />
         <div className="p-6 max-w-4xl mx-auto bg-white rounded shadow mt-6">
           <h2 className="text-xl font-semibold mb-4">{id ? 'Edit Package' : 'Add Package'}</h2>
-          <form onSubmit={handleSubmit} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+         <form onSubmit={handleSubmit} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
   {[
     { name: 'title', label: 'Title' },
     { name: 'description', label: 'Description' },
